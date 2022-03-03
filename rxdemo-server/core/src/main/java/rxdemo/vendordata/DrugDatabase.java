@@ -50,6 +50,8 @@ public class DrugDatabase {
               new EDrugClassification[]{EDrugClassification.ANALGESIC}));
       drugsInDatabase.add(new DispensableDrug(170, "caffeine",
               new EDrugClassification[]{EDrugClassification.ANALGESIC}));
+      drugsInDatabase.add(new DispensableDrug(190, "swaegers-bier",
+              new EDrugClassification[]{EDrugClassification.ANALGESIC}));
       drugsInDatabase.add(new DispensableDrug(200, "bactrim",
          new EDrugClassification[]{EDrugClassification.ANTIBACTERIAL}));
       drugsInDatabase.add(new DispensableDrug(300, "diazepam",
