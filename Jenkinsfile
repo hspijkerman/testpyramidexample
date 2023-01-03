@@ -3,7 +3,7 @@ pipeline {
     stages {    
         stage("git checkout") {
             steps {    
-                git 'https://github.com/weaverj/testpyramidexample.git'
+                git 'https://github.com/hspijkerman/testpyramidexample.git'
             }
         }   
         stage(" change directory"){
